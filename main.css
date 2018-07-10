@@ -2,7 +2,19 @@ html, body {
   width: 100%;
   min-width: 980px;
   height: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
 }
+
+.content {
+  min-height: 100%;
+  margin-bottom: -84px;
+}
+
+.push {
+  height: 110px;
+}
+
 .nav {
   height: 70px;
 }
@@ -40,12 +52,6 @@ html, body {
 
 .nav ul li a img:hover {
   opacity: 1;
-}
-
-.content {
-  background-color: #fff;
-  height: 100%;
-  z-index: 1;
 }
 
 .logo {
@@ -88,11 +94,9 @@ form {
 }
 
 .footer{
-  position: absolute;
-  border-top: 1px solid;
-  height: 84px;
   width: 100%;
-  bottom: 0px;
+  height: 84px;
+  border-top: 1px solid;
 }
 
 .footer1 {
