@@ -1,0 +1,121 @@
+html, body {
+  width: 100%;
+  min-width: 980px;
+  height: 100%;
+}
+.nav {
+  height: 70px;
+}
+
+.nav ul {
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  overflow: hidden;
+  display: table;
+}
+
+.nav ul li {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 8px;
+  font-family: arial;
+  font-size: 13px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #3b3a3a;
+}
+
+.nav ul li a:hover {
+  text-decoration: underline;
+  color: #4f4f4f;
+}
+
+.nav ul li a img {
+  opacity: 0.5;
+}
+
+.nav ul li a img:hover {
+  opacity: 1;
+}
+
+.content {
+  background-color: #fff;
+  height: 100%;
+  z-index: 1;
+}
+
+.logo {
+  display: block;
+  position: relative;
+  margin: 128px auto 10px auto;
+}
+
+form {
+  text-align: center;
+}
+
+.textarea input {
+  font-family: arial;
+  font-size: 16px;
+  font-weight: 500;
+  width: 585px;
+  min-width: 485px;
+  padding: 0 40px 0 15px;
+  height: 45px;
+  outline: none;
+  margin-left: 10px;
+}
+
+.textarea img {
+  position: absolute;
+  right: 400px;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+
+.buttons input {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 13px;
+  color: #676767;
+  margin-top: 18px;
+  height: 35px;
+  padding: 0 15px;
+}
+
+.footer{
+  position: absolute;
+  border-top: 1px solid;
+  height: 84px;
+  width: 100%;
+  bottom: 0px;
+}
+
+.footer1 {
+  background-color: rgb(201, 65, 84);
+}
+
+.footer2 {
+  background-color: rgb(65, 165, 201);
+}
+
+.footer1, .footer2 {
+  height: 50%;
+  font-family: arial;
+  font-size: 15px;
+  line-height: 42px;
+  vertical-align: middle;
+}
+
+.footer2 ul div li, .footer2 ul div{
+  display: inline;
+  padding: 0 15px;
+}
+
+.right li {
+  float: right;
+}
